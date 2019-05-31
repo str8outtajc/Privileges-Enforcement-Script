@@ -22,10 +22,10 @@ If Privileges.app elevates a user to local admin (without using the toggle featu
 
 ### Variables to Edit
 1. Set `myOrgPrefix` to your organization (e.g. com.acme )
-- Do __NOT__ include a trailing '.'
-- This is used only for a run-once launch agent  
+  - Do __NOT__ include a trailing '.'
+  - This is used only for a run-once launch agent  
 2. Set `myOrgLocalTechAccount` to the short name of any local admin account you have deployed for help desk, admins, field services, etc. where you would _not_ want enforcement to run  
-- If you have more than one, you will have to add those to the first condition check under `MAIN`  
+  - If you have more than one, you will have to add those to the first condition check under `MAIN`  
 
 ### Important info regarding validation of future versions of Privileges
 With each new release of `Privileges.app` - verify enforcement script will work properly by doing the following:
