@@ -1,7 +1,7 @@
 # privileges enforcement
 
 ### Overview
-This script is meant to be a helper tool of sorts for SAP's Privileges application
+This script is meant to be a helper tool of sorts for SAP's [Privileges application](https://github.com/SAP/macOS-enterprise-privileges)
 
 ### Use Case
 If Privileges.app elevates a user to local admin (without using the toggle feature), that user remains a local admin until next login.  Some cyber security departments are not satisfied with this.  `privsenforcement.sh` attempts to solve this problem.
